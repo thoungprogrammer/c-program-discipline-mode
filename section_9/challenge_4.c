@@ -5,7 +5,7 @@
 int main(){ 
     double celTemp;
     double fahTemp;
-    printf("Enter the temperature in celsius: ");
+    printf("Enter the celsius temperature: ");
     scanf("%lf", &celTemp);
     fahTemp = celTemp * 1.8 + 32;
     printf("The temperature in fahrenheit is %.2lf\n",fahTemp);
